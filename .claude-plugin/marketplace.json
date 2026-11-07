@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "basecode-skills",
+  "description": "Readability-first coding skills for AI coding agents, adapted from the BaseCode and BaseLaravel field guides.",
+  "owner": {
+    "name": "Labs Kai"
+  },
+  "plugins": [
+    {
+      "name": "basecode",
+      "source": "./plugins/basecode",
+      "description": "Ten language-agnostic readability practices (formatting, dead code, nested code, using objects, big blocks, naming, removing comments, reasonable returns, rule of three, symmetry) plus a /basecode-review workflow.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["readability", "clean-code", "refactoring", "php", "javascript", "code-review"]
+    },
+    {
+      "name": "base-laravel",
+      "source": "./plugins/base-laravel",
+      "description": "Laravel streamlines: skinny controllers, organized models, dumb views, config/routes/container/macros/exceptions/events done the Laravel way.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["laravel", "php", "eloquent", "blade", "refactoring"]
+    }
+  ]
+}

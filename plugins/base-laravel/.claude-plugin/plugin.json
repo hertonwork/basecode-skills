@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "base-laravel",
+  "version": "1.0.0",
+  "description": "Laravel-specific streamlines for controllers, models, views, routes, config, container, macros, exceptions and events.",
+  "author": {
+    "name": "Labs Kai"
+  },
+  "keywords": ["laravel", "php", "eloquent", "blade", "refactoring"]
+}

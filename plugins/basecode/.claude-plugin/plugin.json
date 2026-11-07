@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "basecode",
+  "version": "1.0.0",
+  "description": "Ten language-agnostic readability practices for writing and refactoring code, plus a /basecode-review workflow.",
+  "author": {
+    "name": "Labs Kai"
+  },
+  "keywords": ["readability", "clean-code", "refactoring", "code-review"]
+}
